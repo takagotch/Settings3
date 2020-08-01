@@ -89,6 +89,24 @@ vi depot_i/app/assets/stylesheets/carts.css.scss
 vi depot_i/app/views/carts/show.html.erb
 cp depot_i depot_j
 vi depot_j/app/views/carts/show.html.erb
+vi depot_j/app/views/line_items/_line_item.html.erb
+vi depot_j/app/views/carts/_cart.html.erb
+cp depot_j depot_k
+vi depot_k/app/app/viewws/carts/show.html.erb
+vi depot_k/app/views/layouts/application.html.erb
+vi depot_k/app/controllers/store_controller.rb
+vi depot_k/app/assets/stylesheets/carts.css.scss
+vi depot_k/app/assets/stylesheets/layout.css.scss
+vi depot_k/app/controllers/line_items_controller.rb
+cp depot_k depot_l
+vi depot_l/app/views/store/index.html.erb
+vi depot_l/app/controllers/line_items_controller.rb
+vi depot_l/app/views/line_items/create.js.erb
+cp depot_l depot_m
+vi depot_m/app/assets/javascripts/application.js
+vi depot_m/app/controllers/line_items_controller.rb
+vi depot_m/app/views/line_items/line_item.html.erb
+vi depot_m/app/views/line_items/create.js.erb
 
 
 

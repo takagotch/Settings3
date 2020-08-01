@@ -18,6 +18,23 @@ curl https://localhost:3000/products
 rake db:rollback
 vi depot_b/.gitignore
 
+vi depot_b/app/models/product.rb
+rake test
+vi depot_b/test/functional/products_controller_test.rb
+ls test/unit
+vi depot_a/test/unit/product_test.rb
+vi depot_b/test/unit/product_test.rb
+rake test:units
+vi depot_c/test/unit/product_test.rb
+vi depot_c/test/unit/product_test.rb
+vi depot_b/test/fixtures/products/yml
+vi depot_c/test/fixtures/products.yml
+vi depot_c/test/unit/product_test.rb
+vi depot_c/test/unit/product_test.rb
+
+rails g controller Store index
+vi depot_d/config/routes.rb
+vi 
 ```
 
 ```

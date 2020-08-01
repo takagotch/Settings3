@@ -34,7 +34,21 @@ vi depot_c/test/unit/product_test.rb
 
 rails g controller Store index
 vi depot_d/config/routes.rb
-vi 
+rm public/index.html
+vi depot_d/app/controllers/store_controller.rb
+vi depot_d/app/views/store/index.html.erb
+vi depot_d/app/assets/stylesheets/store.css.scss
+vi depot_e/app/views/layouts/application.html.erb
+vi depot_e/app/assets/stylesheets/layout.css.scss
+vi depot_e/app/views/store/index.html.erb
+vi rake test
+vi depot_d/test/functional/store_controller_test.rb
+vi depot_e/test/functional/store_controller_test.rb
+vi depot_e/test/fixtures/products.yml
+rake test:functionals
+
+rails g scaffold cart
+rake db:migrate
 ```
 
 ```
